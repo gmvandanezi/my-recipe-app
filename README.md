@@ -15,7 +15,7 @@ Clone the Repository:
 git clone https://github.com/gmvandanezi/my-recipe-app.git
 ```
 ```
-cd react-node-my-recipe-app
+cd my-recipe-app
 ```
 
 ## Setting up the Backend:
@@ -31,20 +31,14 @@ npm install
 ```
 
 Spoonacular API:
-```
 Add the api key to the API_KEY variable in the .env file
-```
 
 ElephantSQL Setup:
-```
 Create a new database instance on ElephantSQL.
 Copy the connection string provided by ElephantSQL.
-```
 
 Prisma Setup:
-```
 Replace the DATABASE_URL in the .env file with your ElephantSQL connection string.
-```
 
 Initialize Prisma and generate the Prisma client:
 ```
